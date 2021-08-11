@@ -6,7 +6,7 @@ This is a repository containing reference materials that may be helpful in jumps
 * Collaborative Filtering (CF)
 * Matrix Factorization (may be considered a special case of CF)
 
-Kindly read this **[PPT presentation](https://docs.google.com/presentation/d/12ZJ8eOqyEqvooXTdgwEW13sK2wpKmVLIEMhZ9wRrd0I/edit?usp=sharing)** that details their differences and basic implementations. 
+Kindly read this **[PPT presentation](https://docs.google.com/presentation/d/12ZJ8eOqyEqvooXTdgwEW13sK2wpKmVLIEMhZ9wRrd0I/edit?usp=sharing)** that details their differences and traditional (non-neural) implementations.
 
 ## Foundational Neural Recommender Models
 ### NCF
