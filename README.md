@@ -26,6 +26,12 @@ Another significant model is NARRE, which shares several similarities with DeepC
 ## Attention-Based Recommender Models
 Before you proceed, make sure that you have a grasp on attention mechanisms. The full paper on attention (Vasmani et al., 2017) can be accessed **[here](http://papers.nips.cc/paper/7181-attention-is-all-you-%0Aneed.pdf)** while a more "digestible" version is **[here](https://www.analyticsvidhya.com/blog/2019/11/comprehensive-guide-attention-mechanism-deep-learning/)**.
 
+Here are some of the attention-based recommenders:
+* D-Attn integrates global and local attention to score each word to determine its relevance in a review text **[(Seo et al., 2017)](https://dl.acm.org/doi/pdf/10.1145/3109859.3109890)**.
+* DAML utilizes CNN's local and mutual attention to learn review features **[(Liu et al., 2019)](https://dl.acm.org/doi/pdf/10.1145/3292500.3330906?casa_token=kydrivRLJnQAAAAA:oA80e1ePfZdOZjyFeBgJEydOrCS-yGdkWJ0al2liI8XJBF8gLpWMfSRgKA1itp0A26Bm6dN1gvS_EA)**.
+* HUITA incorporates a hierarchical, three-tier attention network **[(Wu et al., 2019)](https://www.aclweb.org/anthology/N19-1180.pdf)**.
+* MPCN is similar to NARRE, but the former does not rely on convolutional layers. It introduces a review-by-review pointer-based mechanism that is co-attentive in nature to model user-item relationships **[(Tay, Luu, & Hui, 2018)](https://dl.acm.org/doi/pdf/10.1145/3219819.3220086?casa_token=F2DSup_bUokAAAAA:m4DyDyiUMjjO2--7mJzFZpxQd4Q841p1MypvDNpZD6LHZpdA0fqxkyglbiGr0EfTxiRH9QXQnfLb3w)**.
+
 
 ## BERT-Based Recommender Models
 Before you continue, ensure that you are familiar with BERT. There are some helpful video links that discuss BERT by **[CodeEmporium](https://www.youtube.com/watch?v=xI0HHN5XKDo)** and **[Henry AI](https://www.youtube.com/watch?v=OR0wfP2FD3c)**. Keep in mind that BERT is generally used as automatic feature extractors from reviews.  
