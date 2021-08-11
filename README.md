@@ -1,5 +1,5 @@
 # References and Resources for Neural Recommender Systems Research
-This is a repository containing reference materials that may be helpful in jumpstarting your research on neural recommender systems, with special focus on collaborative filtering. Be sure to click the text in blue (**[like this](#)**) so that you will be redirected to the appropriate reference!
+This is a repository containing reference materials that may be helpful in jumpstarting your research on neural, review-based recommender systems, with special focus on collaborative filtering. Be sure to click the text in blue (**[like this](#)**) so that you will be redirected to the appropriate reference!
 
 ## Prelude: Types of Recommender Systems
 * Content-Based Filtering 
@@ -28,4 +28,5 @@ Before you proceed, make sure that you have a grasp on attention mechanisms.
 
 
 ## BERT-Based Recommender Models
-Before you continue, ensure that you are familiar with BERT.
+Before you continue, ensure that you are familiar with BERT. There are some helpful video links that discuss BERT by **[CodeEmporium](https://www.youtube.com/watch?v=xI0HHN5XKDo)** and **[Henry AI](https://www.youtube.com/watch?v=OR0wfP2FD3c)**. Keep in mind that BERT is generally used as automatic feature extractors from reviews.  
+Notwithstanding, CNN-based approaches fail to consider global context and word frequency information. These two factors are crucial because they can affect recommendation performance. In this regard, **[NCEM](https://ieeexplore.ieee.org/iel7/6287639/8600701/08782556.pdf)** and **[BENEFICT](https://www.aclweb.org/anthology/2020.aacl-main.18.pdf)** replaces the CNN with a pre-trained BERT model in the parallel user/item networks. BERT's advantage lies in its full retention of global context and word frequency information \cite{feng2019neural}. 
