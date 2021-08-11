@@ -1,5 +1,5 @@
 # References and Resources for Neural Recommender Systems Research
-This is a repository containing reference materials that may be helpful in jumpstarting your research on neural, review-based recommender systems, with special focus on collaborative filtering. Be sure to click the text in blue (**[like this](#)**) so that you will be redirected to the appropriate reference!
+This is a repository containing reference materials that may be helpful in jumpstarting your research on neural, review-based recommender systems, with a special focus on collaborative filtering. Be sure to click the text in blue (**[like this](#)**) so that you will be redirected to the appropriate reference!
 
 ## Prelude: Types of Recommender Systems
 * Content-Based Filtering 
@@ -10,7 +10,7 @@ Kindly read this **[PPT presentation](https://docs.google.com/presentation/d/12Z
 
 ## Foundational Neural Recommender Models
 ### NCF
-This time, we will talk about implementing collaborative filtering using deep learning and neural networks AKA neural collaborative filtering (NCF).
+This time, we will talk about implementing collaborative filtering using deep learning and neural networks, AKA neural collaborative filtering (NCF).
 
 Designing a CF model involves two crucial steps or procedures. The first step is learning user and item representations, and the second step is modeling user-item interactions based on the representations mentioned earlier. One of the fundamental works in the utilization of NN in CF is called neural collaborative filtering (NCF) **[(He et al., 2017)](https://dl.acm.org/doi/pdf/10.1145/3038912.3052569?casa_token=PCPE6Y-KhqkAAAAA:8Zf5UV5HKgeUrlBqwitykc8WHpu_0eKVOO8lnNLhun8aON_TvLoQbvIqUFdHOAenjeEwsr57wt6Q7A)**. NCF, originally implemented for implicit feedback data-driven CF, learns non-linear, flexible, and more abstractive interactions between users and items by employing MLP layers as its interaction function. An MLP-based interaction function overcomes the limitations of an inner product-based interaction function. The latter is said to be sub-optimal to learn rich yet complicated patterns from real-world data.
 
@@ -24,7 +24,7 @@ DeepCoNN is the first deep learning-based model representing users and items fro
 Another significant model is NARRE, which shares several similarities with DeepCoNN. NARRE is also composed of two parallel CNN-based networks that are uniquely incorporated with the review-level attention mechanism **[(Chen et al., 2018)](https://dl.acm.org/doi/pdf/10.1145/3178876.3186070?casa_token=HgeF0UM2TLsAAAAA:D7yvWV5BxKzkwi3UWdXjfd2IPTa7LdFAU_A801OUe0CbKbULR2iHW5qxRGlGSPZ97NmpgoOAE8uqlg)**. The said mechanism distinguishes each review's usefulness or contribution based on attention weights. As a side-effect, this also leads to review-level explanations; reviews with the highest attention scores are presented as explanations. These weights are then incorporated into the representations of users and items to enhance embedding quality.
 
 ## Attention-Based Recommender Models
-Before you proceed, make sure that you have a grasp on attention mechanisms. The full paper on attention (Vasmani et al., 2017) can be accessed **[here](http://papers.nips.cc/paper/7181-attention-is-all-you-%0Aneed.pdf)** while a more "digestible" version is **[here](https://www.analyticsvidhya.com/blog/2019/11/comprehensive-guide-attention-mechanism-deep-learning/)**.
+Before you proceed, make sure that you have a grasp of attention mechanisms. The full paper on attention (Vasmani et al., 2017) can be accessed **[here](http://papers.nips.cc/paper/7181-attention-is-all-you-%0Aneed.pdf)** while a more "digestible" version is **[here](https://www.analyticsvidhya.com/blog/2019/11/comprehensive-guide-attention-mechanism-deep-learning/)**.
 
 Here are some of the attention-based recommenders:
 * D-Attn integrates global and local attention to score each word to determine its relevance in a review text **[(Seo et al., 2017)](https://dl.acm.org/doi/pdf/10.1145/3109859.3109890)**.
