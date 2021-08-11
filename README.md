@@ -10,7 +10,7 @@ Kindly read this **[PPT presentation](https://docs.google.com/presentation/d/12Z
 
 ## Foundational Neural Recommender Models
 ### NCF
-This time, we will talk about implementing collaborative filtering using deep learning and neural networks, AKA neural collaborative filtering (NCF). Its difference with matrix factorization are highlighted in this **[paper](https://dl.acm.org/doi/pdf/10.1145/3383313.3412488)** by Rendle et al. (2020).
+This time, we will talk about implementing collaborative filtering using deep learning and neural networks, AKA neural collaborative filtering (NCF). Its differences with matrix factorization are highlighted in this **[paper](https://dl.acm.org/doi/pdf/10.1145/3383313.3412488)** by Rendle et al. (2020).
 
 Designing a CF model involves two crucial steps or procedures. The first step is learning user and item representations, and the second step is modeling user-item interactions based on those representations. One of the fundamental works in the utilization of NN in CF is called neural collaborative filtering (NCF) **[(He et al., 2017)](https://dl.acm.org/doi/pdf/10.1145/3038912.3052569?casa_token=PCPE6Y-KhqkAAAAA:8Zf5UV5HKgeUrlBqwitykc8WHpu_0eKVOO8lnNLhun8aON_TvLoQbvIqUFdHOAenjeEwsr57wt6Q7A)**. NCF, originally implemented for implicit feedback data-driven CF, learns non-linear, flexible, and more abstractive interactions between users and items by employing MLP layers as its interaction function. An MLP-based interaction function overcomes the limitations of an inner product-based interaction function. The latter is said to be sub-optimal to learn rich yet complicated patterns from real-world data.
 
