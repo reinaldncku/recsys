@@ -24,7 +24,7 @@ DeepCoNN is the first deep learning-based model representing users and items fro
 Another significant model is NARRE, which shares several similarities with DeepCoNN. NARRE is also composed of two parallel CNN-based networks that are uniquely incorporated with the review-level attention mechanism **[(Chen et al., 2018)](https://dl.acm.org/doi/pdf/10.1145/3178876.3186070?casa_token=HgeF0UM2TLsAAAAA:D7yvWV5BxKzkwi3UWdXjfd2IPTa7LdFAU_A801OUe0CbKbULR2iHW5qxRGlGSPZ97NmpgoOAE8uqlg)**. The said mechanism distinguishes each review's usefulness or contribution based on attention weights. As a side-effect, this also leads to review-level explanations; reviews with the highest attention scores are presented as explanations. These weights are then incorporated into the representations of users and items to enhance embedding quality.
 
 ## Attention-Based Recommender Models
-Before you proceed, make sure that you have a grasp on attention mechanisms.
+Before you proceed, make sure that you have a grasp on attention mechanisms. The full paper on attention (Vasmani et al., 2017) can be accessed **[here](http://papers.nips.cc/paper/7181-attention-is-all-you-%0Aneed.pdf)** while a more "digestible" version is **[here](https://www.analyticsvidhya.com/blog/2019/11/comprehensive-guide-attention-mechanism-deep-learning/)**.
 
 
 ## BERT-Based Recommender Models
