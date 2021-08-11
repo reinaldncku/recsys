@@ -17,7 +17,7 @@ Designing a CF model involves two crucial steps or procedures. The first step is
 This **[PPT file](https://docs.google.com/presentation/d/1qekyFWgY1jtF4fYHePFVYBYwey7dxz4WtPK4GC8KvM8/edit?usp=sharing)** contains a TL;DR version of the NCF paper. Before continuing any further, it is essential that you carefully understand the concepts and principles surrounding NCF.
 
 ### DeepCoNN and NARRE
-Arguably, DeepCoNN and NARRE are the first recommender systems that effectively utilize neural networks, thereby leading to state-of-the-art performance.
+Arguably, DeepCoNN and NARRE are the first recommender systems that effectively utilize neural networks, thereby leading to state-of-the-art performances.
 
 DeepCoNN is the first deep learning-based model representing users and items from reviews in a joint manner **[(Zheng, Noroozi, & Yu, 2017)](https://dl.acm.org/doi/pdf/10.1145/3018661.3018665)**. The model consists of two parallel networks powered by convolutional neural networks (CNN). One network learns user behavior by examining all reviews he has written, and the other network models item properties by exploring all reviews it has received. A shared layer connects these two networks, and factorization machines capture user-item interactions. 
 
