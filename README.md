@@ -3,8 +3,8 @@ This is a repository containing reference materials that may be helpful in jumps
 
 ## Prelude: Types of Recommender Systems
 * Content-Based Filtering 
-* Collaborative Filtering
-* Matrix Factorization
+* Collaborative Filtering (CF)
+* Matrix Factorization (may be considered a special case of CF)
 
 Kindly read this **[PPT presentation](https://docs.google.com/presentation/d/12ZJ8eOqyEqvooXTdgwEW13sK2wpKmVLIEMhZ9wRrd0I/edit?usp=sharing)** that details their differences and basic implementations. 
 
