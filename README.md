@@ -1,4 +1,4 @@
-# References and Resources for Neural Recommender Systems Research
+# References for Neural Recommender Systems Research
 This is a repository containing reference materials that may be helpful in jumpstarting your research on neural, review-based recommender systems, with a special focus on collaborative filtering. Be sure to click the text in blue (**[like this](#)**) so that you will be redirected to the appropriate reference!
 
 ## Prelude: Types of Recommender Systems
